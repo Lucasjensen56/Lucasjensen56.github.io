@@ -7,4 +7,9 @@
   main {
     flex: 1 0 auto;
   }
-      
+
+  .mailto{
+  display:block;
+  width:100px;
+  height:20px;
+}	
