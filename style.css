@@ -44,7 +44,7 @@ h5 {
 }
 
 .headerSection {
-	margin-bottom: 24%;
+	margin-bottom: 15%;
 }
 
 
@@ -116,8 +116,8 @@ i {
 
 
 .footerSection {
-	background-color: #ef9a9a;
-    padding: 3% 6% 17% 14%;
+	    background-color: #ef9a9a;
+    padding: 3% 6% 15% 14%;
     margin-top: 10%;
 }
 
@@ -127,6 +127,16 @@ i {
     margin-top: -27%;
     background-color: white;
 
+}
+
+
+
+@media only screen and (max-width: 300px) {
+    .introArticle {
+    background-color: #ef9a9a;
+    padding: 3% 14% 34% 14%;
+    font-size: 215%;
+}
 }
 
 
