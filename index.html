@@ -12,56 +12,57 @@
 <body>
 <nav>
 	<div class="nav-wrapper">
-	  <a href="#" class="logo brand-logo left">Jensen Logo</a>
+	  <a href="#" class="logo brand-logo left"><img class="logoImg" src="./assets/logo.png"></a>
 	  <ul id="nav-mobile" class="right hide-on-med-and-down">
-	    <li><a href="sass.html">Skills</a></li>
-	    <li><a href="badges.html">Projects</a></li>
-	    <li><a href="collapsible.html">Contact</a></li>
+	    <li><a href="#skillsTitle">Skills</a></li>
+	    <li><a href="#myRecentWork">Projects</a></li>
+	    <li><a href="#getInTouch">Contact</a></li>
 	  </ul>
 	</div>
 </nav>
 
-<main class="container">
-	<section class="center-align">
+<main>
+	<section class="center-align headerSection">
 		<h1>web developer.</h1>
 		<h5>I design and code simple and elegant websites</h5>
 		<div>
-			<img class="responsive-img headerImg" src="./assets/circlelogo.png">
+			<img class="responsive-img headerImg " src="./assets/circlelogo.png">
 		</div>
 	</section>
 	<section>
-		<article>
+		<article class="container-fluid introArticle z-depth-1">
 			<h3>Hi, I'm Luke.</h3>
 			<p>Full-stack Web Developer with a focus on Front End Development. Currently enrolled in a six month coding bootcamp course through the University of Minnesota. Holds a Bachelor degree in English Literature from Aberystwyth University in the United Kingdom.</p>
 			<p>Experienced in Web Development languages such as HTML, CSS, and jQuery as well as a demonstrated history of 4+ years of skills in project management, customer relations, and end-user experience. Has a passion for working on user-focused web development, process improvement and innovation. Highly focused on prioritizing communication and works well with others as well as independently.</p>
 		</article>
-		<article class="center-align">
-			<h3>Skills</h3>
+		<article class="skills center-align container z-depth-2">
+			<h3 id="skillsTitle">Skills</h3>
 			<div class="container">
 				<div class="row">
 					<div class="col s6">
-						<h4>Front-end Development</h4>
-						<h6>Known Languages</h6>
+						<h5>Front-end Development</h5>
+						<p>Known Languages</p>
 						<p>HTML, CSS, Javascript, jQuery, Handlebars.js</p>
 					</div>
 					<div class="col s6">
-						<h4>Back-end Devlopment</h4>
-						<h6>Known Lanuages</h6>
+						<h5>Back-end Devlopment</h5>
+						<p>Known Lanuages</p>
 						<p>Node Js, MySQL, MongoDB</p>
 
 					</div>
 				</div>
 				<div class="row">
+					<hr>
 					<div class="col s12s">
-						<h4>Dev Tools</h4>
+						<h5>Dev Tools</h5>
 						<p>Github, Materialize, Bootstrap, Visual Studio Code, Sublime Text, Codepen, Terminal, Firebase</p>
 					</div>
 				</div>
 			</div>
 		</article>
 	</section>
-	<section>
-		<h3>My Recent Work</h3>
+	<section class="container projectSection">
+		<h2 class="center-align" id="myRecentWork">My Recent Work</h2>
 		<article>
 			<div class="row">
 				<div class="col s6">
@@ -186,7 +187,7 @@
 		</article>
 	</section>
 	<section class="center-align">
-		<h3>Get in touch.</h3>
+		<h3 id="getInTouch">Get in touch.</h3>
 		<ul>
 			<li><a href="https://github.com/Lucasjensen56"><i class="fab fa-github"></i></a></li>
 			<li><a href="https://www.linkedin.com/in/lucas-jensen-1b30ba52/"><i class="fab fa-linkedin-in"></i></a></li>
@@ -203,13 +204,21 @@
 
 
 <footer class="page-footer">
-          <div class="footer-copyright">
-            <div class="container">
-            © 2018 Copyright Text
-            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
-            </div>
-          </div>
-        </footer>
+	<div class="container">
+		<div class="row">
+			<div class="col 16 s12">
+				
+			</div>
+		</div>
+	</div>
+	<div class="footer-copyright">
+		<div class="container">
+		© 2018 Copyright Text
+		<div>
+		</div>
+		</div>
+	</div>
+</footer>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
 <script src="app.js"></script>
